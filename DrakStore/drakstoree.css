@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:900");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(form5.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header{
+    padding-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-color: rgba(0, 0, 0, .58);
+}
+
+p{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 22px;
+    margin-left: 100px;
+}
+
+header ul{
+    text-align: center;
+    margin-right: 50px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 27px;
+    transition: all ease 0.5s;
+}
+
+header ul li a:hover{
+    background-color: #352f5c85;
+}
+
+.formulario {
+    background: url(form2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    max-width : 700px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titulo {
+    text-align: center;
+    font-size:2em;
+}
+
+#subtitulo {
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    font-size: 1em;
+    padding: 0.4em 2em;
+    border-radius:  10px;
+    border-width:1px;
+}
+
+#nome, #sobrenome {
+    width: 100%;
+} 
+
+#email{
+    width: 500px;
+}
+
+input{
+    padding:5px;
+    font-size: 1em;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
